@@ -1,0 +1,40 @@
+<div class="card" style="width: 22rem; float: left;" [ngSwitch]="product.Status">
+    <img [src]="product.img"class="card-img" alt="Card Image">
+    <div class="card-body">
+           <p class="desc"><b> Product:</b> {{product.pname | uppercase}}</p>
+        <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
+        <hr>
+        <div [hidden]="productDetail">
+           <p class="desc"> <b>Description:</b>  {{product.pdescription}} </p>
+            <p class="desc"><b> Price:</b> {{product.price | currency:'INR'}}</p>
+            <div>
+                <div style="float: left;"><p class="desc" style="padding-right: 10px;"> <b>Status:</b> </p></div> 
+                <div class="desc1" style="padding-left: 10px; float: center; ">
+                    <p *ngSwitchCase="'In Stock'" class="text-success">{{product.Status}}</p>
+                    <p *ngSwitchDefault class="text-danger">{{product.Status}}</p>
+                    <!-- <app-counter></app-counter> -->
+                </div>        
+                <div>Quantity: &nbsp;<input type="number" name="quantity" [(ngModel)]="quantity"style="width:50px;border-radius:10px;" min="1" max="25">
+                    <button *ngSwitchCase="'In Stock'" class="btn btn-warning m-3" (click)="addToCart(product)" style="width:150px;border-radius:10px;">Add to Cart</button>
+                    <button *ngSwitchDefault type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-warning m-3" style="width:150px;border-radius:10px;">Add to Cart</button>
+                </div> 
+        </div>  
+    </div>
+  </div>
+
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body" style="background-color:red; font-size: 20px; font-weight: bold;">
+                  <p>{{product.pname}} is out of stock</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" >Cancel</button>
+                  <button type="button" class="btn btn-warning" data-bs-dismiss="modal" >Notify Me</button>
+                </div>
+              </div>
+            </div>
+          </div>

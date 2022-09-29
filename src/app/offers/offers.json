@@ -1,0 +1,122 @@
+[
+    {
+        "pid":1,
+        "image": "/assets/images/L1.jpg",
+        "pname":"HP Laptop",
+        "pdescription":"HP 14s, Ryzen 7- 5700U 16GB RAM/512GB SSD 14-inch(35.6 cm) FHD, IPS,Micro-Edge Display/AMD Radeon Graphics/Alexa/Win 11/Backlit KB",
+        "Status":"In Stock",
+        "price": 55999 
+    },
+    {
+        "pid":2,
+        "image":"/assets/images/t2.webp",
+        "pname":"SAMSUNG Galaxy Tab",
+        "pdescription":"SAMSUNG Galaxy Tab A8 4 GB RAM 64 GB ROM 10.5 inch with Wi-Fi+4G Tablet (Platinum Gray)",
+        "Status":"Out of Stock",
+        "price": 20990 
+    },
+    {
+        "pid":3,
+        "image":"/assets/images/m3.webp",
+        "pname":"vivo v25",
+        "pdescription":"vivo V25 5G (Surfing Blue, 128 GB)  (8 GB RAM)",
+        "Status":"In Stock",
+        "price": 27999 
+    },
+    {
+        "pid":4,
+        "image":"/assets/images/L4.jpg",
+        "pname":"LENOVO Laptop",
+        "pdescription":"Lenovo ThinkPad E14 AMD Ryzen 3 5300U 14 (35.56 cm) FHD Thin and Light Laptop (8GB RAM/512GB SSD/Windows 11/AMD Radeon Graphics/FPR/Black/1.69 kg)",
+        "Status":"Out of Stock",
+        "price": 62000 
+    },
+    {
+        "pid":5,
+        "image":"/assets/images/t5.webp",
+        "pname":"MOTOROLA tab g70",
+        "pdescription":"MOTOROLA tab g70 LTE 6 GB RAM 128 GB ROM 11 inch with Wi-Fi+4G Tablet (Modernist Teal)",
+        "Status":"In Stock",
+        "price": 21999 
+    },
+    {
+        "pid":6,
+        "image":"/assets/images/m6.webp",
+        "pname":"OnePlus 10T",
+        "pdescription":"OnePlus 10T 5G (Jade Green, 128 GB)  (8 GB RAM)",
+        "Status":"Out of Stock",
+        "price": 49980 
+    },
+    {
+        "pid":1,
+        "image": "/assets/images/t1.webp",
+        "pname":"Lenovo Tab P11",
+        "pdescription":"Lenovo Tab P11 4 GB RAM 128 GB ROM 11.0 inches with Wi-Fi+4G Tablet (Platinum Grey)",
+        "Status":"In Stock",
+        "price": 19999 
+    },
+    {
+        "pid":2,
+        "image":"/assets/images/L2.jpg",
+        "pname":"DELL Laptop",
+        "pdescription":"Dell New Inspiron 3525 Laptop, Intel Athlon Silver 3050U, Win11 + Office'21, 8GB GDDR4, 256GB SSD, Radeon Graphics, 15.6inches (39.62Cms) HD AG",
+        "Status":"Out of Stock",
+        "price": 45000 
+    },
+    {
+        "pid":3,
+        "image":"/assets/images/m3.webp",
+        "pname":"vivo v25",
+        "pdescription":"vivo V25 5G (Surfing Blue, 128 GB)  (8 GB RAM)",
+        "Status":"In Stock",
+        "price": 27999 
+    },
+    {
+        "pid":4,
+        "image":"/assets/images/t4.webp",
+        "pname":"SAMSUNG Galaxy Tab S7+",
+        "pdescription":"SAMSUNG Galaxy Tab S7+ With Stylus 6 GB RAM 128 GB ROM 12.4 inch with Wi-Fi Only Tablet (Mystic Black)",
+        "Status":"Out of Stock",
+        "price": 42999 
+    },
+    {
+        "pid":5,
+        "image":"/assets/images/L5.jpg",
+        "pname":"ACER Laptop",
+        "pdescription":"Acer Predator Helios 300 12th Gen Intel Core i7-12700H 15.6 inches QHD IPS Display Gaming Laptop (16GB/1TB SSD/Windows 11 Home/6GB Graphics)",
+        "Status":"In Stock",
+        "price": 48999 
+    },
+    {
+        "pid":6,
+        "image":"/assets/images/m6.webp",
+        "pname":"OnePlus 10T",
+        "pdescription":"OnePlus 10T 5G (Jade Green, 128 GB)  (8 GB RAM)",
+        "Status":"Out of Stock",
+        "price": 49980 
+    },
+    {
+        "pid":7,
+        "image":"/assets/images/L7.jpg",
+        "pname":"HP Victus Laptop",
+        "pdescription":"HP Victus AMD Ryzen 5 5600H 16.1 inches(40cm) FHD Gaming Laptop (8GB RAM/512GB SSD/4GB Radeon RX5500M Graphics/Windows 11 Home.",
+        "Status":"In Stock",
+        "price": 67999 
+    },
+    {
+        "pid":8,
+        "image":"/assets/images/t8.webp",
+        "pname":"Oppo Pad Air",
+        "pdescription":"Oppo Pad Air 4 GB RAM 64 GB ROM 10.36 inch with Wi-Fi Only Tablet (Grey))",
+        "Status":"Out of Stock",
+        "price": 14999 
+    },
+    {
+        "pid":9,
+        "image":"/assets/images/m9.webp",
+        "pname":"OPPO Reno8 Pro",
+        "pdescription":"OPPO Reno8 Pro 5G (Glazed Green, 256 GB)  (12 GB RAM)",
+        "Status":"In Stock",
+        "price": 45999 
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "pid":1,
+        "img": "/assets/images/L1.jpg",
+        "pname":"HP Laptop",
+        "pdescription":"HP 14s, Ryzen 7- 5700U 16GB RAM/512GB SSD 14-inch(35.6 cm) FHD, IPS,Micro-Edge Display/AMD Radeon Graphics/Alexa/Win 11/Backlit KB",
+        "Status":"In Stock",
+        "price": 55999 
+    },
+    {
+        "pid":2,
+        "img":"/assets/images/L2.jpg",
+        "pname":"DELL Laptop",
+        "pdescription":"Dell New Inspiron 3525 Laptop, Intel Athlon Silver 3050U, Win11 + Office'21, 8GB GDDR4, 256GB SSD, Radeon Graphics, 15.6inches (39.62Cms) HD AG",
+        "Status":"Out of Stock",
+        "price": 45000 
+    },
+    {
+        "pid":3,
+        "img":"/assets/images/L3.jpg",
+        "pname":"ASUS Laptop",
+        "pdescription":"ASUS Vivobook 16X (2022), 16-inch (40.64 cms) WUXGA, AMD Ryzen 5 5600H, Thin and Light Laptop (8GB/512GB SSD/Graphics/Windows 11/Office 2021",
+        "Status":"In Stock",
+        "price": 51999 
+    },
+    {
+        "pid":4,
+        "img":"/assets/images/L4.jpg",
+        "pname":"LENOVO Laptop",
+        "pdescription":"Lenovo ThinkPad E14 AMD Ryzen 3 5300U 14 (35.56 cm) FHD Thin and Light Laptop (8GB RAM/512GB SSD/Windows 11/AMD Radeon Graphics/FPR/Black/1.69 kg)",
+        "Status":"Out of Stock",
+        "price": 62000 
+    },
+    {
+        "pid":5,
+        "img":"/assets/images/L5.jpg",
+        "pname":"ACER Laptop",
+        "pdescription":"Acer Predator Helios 300 12th Gen Intel Core i7-12700H 15.6 inches QHD IPS Display Gaming Laptop (16GB/1TB SSD/Windows 11 Home/6GB Graphics)",
+        "Status":"In Stock",
+        "price": 48999 
+    },
+    {
+        "pid":6,
+        "img":"/assets/images/L6.jpg",
+        "pname":"MSI GAMING Laptop",
+        "pdescription":"MSI Gaming GF63 Thin, Intel 11th Gen. i5-11400H, 40CM FHD 144Hz Gaming Laptop (8GB/512GB NVMe SSD/Windows 10 Home/Nvidia GTX1650 Max-Q 4GB GDDR6",
+        "Status":"Out of Stock",
+        "price": 75999 
+    },
+    {
+        "pid":7,
+        "img":"/assets/images/L7.jpg",
+        "pname":"HP Victus Laptop",
+        "pdescription":"HP Victus AMD Ryzen 5 5600H 16.1 inches(40cm) FHD Gaming Laptop (8GB RAM/512GB SSD/4GB Radeon RX5500M Graphics/Windows 11 Home.",
+        "Status":"In Stock",
+        "price": 67999 
+    },
+    {
+        "pid":8,
+        "img":"/assets/images/L8.jpg",
+        "pname":"GIGABYTE AERO Laptop",
+        "pdescription":"GIGABYTE AERO 5 KE4 Laptop, Intel Core i7-12700H 12th Gen, NVIDIA® RTX 3060 6GB Graphics, Gaming Laptop (16 GB / Windows 11 Home / Gen4 1TB SSD)",
+        "Status":"Out of Stock",
+        "price": 149999 
+    },
+    {
+        "pid":9,
+        "img":"/assets/images/L9.jpg",
+        "pname":"ASUS ROG STRIX Laptop",
+        "pdescription":"ASUS ROG Strix G17, 17.3-inch (43.94 cms) FHD 144Hz, AMD Ryzen 7 4800H, RTX 3050 Ti 4GB Graphics, Gaming Laptop (16GB/1TB SSD)",
+        "Status":"In Stock",
+        "price": 95000 
+    }
+]

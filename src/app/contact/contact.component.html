@@ -1,0 +1,32 @@
+<div class="row">
+    <h2 style="font-family: italic;">Please get in touch and our expert support team will answer all your questions.!</h2>
+        <div class="col-6 form1" style="color: black;">
+            <p style="color: rgb(255, 255, 255);"><strong> Feel Free to Visit Us...</strong></p>
+            <form action="#">
+                <label for="">Full Name</label> <br>
+                <input type="text" name="" id=""> <br>
+                <label for="">Email</label> <br>
+                <input type="text" name="" id=""> <br>
+                <label for="">Phone</label> <br>
+                <input type="email" name="" id=""> <br>
+                <label for="">Issues</label> <br>
+                <textarea id="w3review" name="w3review" rows="4" cols="35"></textarea> <br>
+                <button>Submit</button>
+            </form>
+        </div>
+        <div class="col-6 form2">
+            <p style="color: rgb(255, 255, 255);"><strong> Meet our brilliant and  knoledgeable support team...</strong></p>
+            <div class="card" style="width: 38rem;">
+                <div class="card-body" style="color: black;">
+                    <div class="row">
+                        <div class="col-4" *ngFor="let m of con" style="float: left; padding: 3px;">
+                            <img height="100px" width="100px" [src]="m.img" style="margin-left: 30px;"> <hr> 
+                            <label for="">Name: {{ m.name}}</label>
+                            <label for="">Email: {{ m.email}}</label>
+                            <label for="">Phone: {{ m.phone}}</label>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+</div>

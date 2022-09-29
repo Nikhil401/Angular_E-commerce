@@ -1,0 +1,74 @@
+[
+    {
+        "pid":1,
+        "img": "/assets/images/m1.webp",
+        "pname":"vivo T1 Pro",
+        "pdescription":"vivo T1 Pro 5G (Turbo Black, 128 GB)  (8 GB RAM)",
+        "Status":"In Stock",
+        "price": 24999 
+    },
+    {
+        "pid":2,
+        "img":"/assets/images/m2.webp",
+        "pname":"OPPO F19",
+        "pdescription":"OPPO F19 Pro+ 5G (Fluid Black, 128 GB)  (8 GB RAM)",
+        "Status":"Out of Stock",
+        "price": 17990 
+    },
+    {
+        "pid":3,
+        "img":"/assets/images/m3.webp",
+        "pname":"vivo v25",
+        "pdescription":"vivo V25 5G (Surfing Blue, 128 GB)  (8 GB RAM)",
+        "Status":"In Stock",
+        "price": 27999 
+    },
+    {
+        "pid":4,
+        "img":"/assets/images/m4.webp",
+        "pname":"MOTOROLA Edge 30",
+        "pdescription":"MOTOROLA Edge 30 (Aurora Green, 128 GB)  (8 GB RAM)",
+        "Status":"Out of Stock",
+        "price": 26999 
+    },
+    {
+        "pid":5,
+        "img":"/assets/images/m5.webp",
+        "pname":"OPPO Reno8",
+        "pdescription":"OPPO Reno8 5G (Shimmer Black, 128 GB)  (8 GB RAM)",
+        "Status":"In Stock",
+        "price": 29999 
+    },
+    {
+        "pid":6,
+        "img":"/assets/images/m6.webp",
+        "pname":"OnePlus 10T",
+        "pdescription":"OnePlus 10T 5G (Jade Green, 128 GB)  (8 GB RAM)",
+        "Status":"Out of Stock",
+        "price": 49980 
+    },
+    {
+        "pid":7,
+        "img":"/assets/images/m7.webp",
+        "pname":"Xiaomi 11Lite NE",
+        "pdescription":"Xiaomi 11Lite NE (Vinyl Black, 128 GB)  (8 GB RAM)",
+        "Status":"In Stock",
+        "price": 24489 
+    },
+    {
+        "pid":8,
+        "img":"/assets/images/m8.webp",
+        "pname":"SAMSUNG Galaxy S22 Ultra",
+        "pdescription":"SAMSUNG Galaxy S22 Ultra 5G (Phantom White, 256 GB)  (12 GB RAM)",
+        "Status":"Out of Stock",
+        "price": 109999 
+    },
+    {
+        "pid":9,
+        "img":"/assets/images/m9.webp",
+        "pname":"OPPO Reno8 Pro",
+        "pdescription":"OPPO Reno8 Pro 5G (Glazed Green, 256 GB)  (12 GB RAM)",
+        "Status":"In Stock",
+        "price": 45999 
+    }
+]

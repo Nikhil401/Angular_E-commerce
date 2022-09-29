@@ -1,0 +1,74 @@
+[
+    {
+        "pid":1,
+        "img": "/assets/images/t1.webp",
+        "pname":"Lenovo Tab P11",
+        "pdescription":"Lenovo Tab P11 4 GB RAM 128 GB ROM 11.0 inches with Wi-Fi+4G Tablet (Platinum Grey)",
+        "Status":"In Stock",
+        "price": 19999 
+    },
+    {
+        "pid":2,
+        "img":"/assets/images/t2.webp",
+        "pname":"SAMSUNG Galaxy Tab",
+        "pdescription":"SAMSUNG Galaxy Tab A8 4 GB RAM 64 GB ROM 10.5 inch with Wi-Fi+4G Tablet (Platinum Gray)",
+        "Status":"Out of Stock",
+        "price": 20990 
+    },
+    {
+        "pid":3,
+        "img":"/assets/images/t3.webp",
+        "pname":"Lenovo Smart Tab M10",
+        "pdescription":"Lenovo Smart Tab M10 FHD Plus (2nd Gen) with Google Assistant 4 GB RAM 128 GB ROM with Wi-Fi+4G Tablet (Iron Grey)",
+        "Status":"In Stock",
+        "price": 16499 
+    },
+    {
+        "pid":4,
+        "img":"/assets/images/t4.webp",
+        "pname":"SAMSUNG Galaxy Tab S7+",
+        "pdescription":"SAMSUNG Galaxy Tab S7+ With Stylus 6 GB RAM 128 GB ROM 12.4 inch with Wi-Fi Only Tablet (Mystic Black)",
+        "Status":"Out of Stock",
+        "price": 42999 
+    },
+    {
+        "pid":5,
+        "img":"/assets/images/t5.webp",
+        "pname":"MOTOROLA tab g70",
+        "pdescription":"MOTOROLA tab g70 LTE 6 GB RAM 128 GB ROM 11 inch with Wi-Fi+4G Tablet (Modernist Teal)",
+        "Status":"In Stock",
+        "price": 21999 
+    },
+    {
+        "pid":6,
+        "img":"/assets/images/t6.webp",
+        "pname":"Realme Pad X",
+        "pdescription":"Realme Pad rX LTE 6 pro GB RAM 128 GB ROM 11 inch with Wi-Fi+5G Tablet (Glacier Blue)",
+        "Status":"Out of Stock",
+        "price": 25999 
+    },
+    {
+        "pid":7,
+        "img":"/assets/images/t7.webp",
+        "pname":"APPLE iPad",
+        "pdescription":"APPLE iPad (9th Gen) 256 GB ROM 10.2 inch with Wi-Fi Only (Space Grey)",
+        "Status":"In Stock",
+        "price": 40900 
+    },
+    {
+        "pid":8,
+        "img":"/assets/images/t8.webp",
+        "pname":"Oppo Pad Air",
+        "pdescription":"Oppo Pad Air 4 GB RAM 64 GB ROM 10.36 inch with Wi-Fi Only Tablet (Grey))",
+        "Status":"Out of Stock",
+        "price": 14999 
+    },
+    {
+        "pid":9,
+        "img":"/assets/images/t9.webp",
+        "pname":"Acer One 10p",
+        "pdescription":"Acer One 10 4 GB RAM 64 GB ROM 10.1 inch with Wi-Fi+4G Tablet (Rose Gold)",
+        "Status":"In Stock",
+        "price": 15999 
+    }
+]

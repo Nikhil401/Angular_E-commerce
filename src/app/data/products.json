@@ -1,0 +1,37 @@
+[
+    {
+        "pid":1,
+        "pname":"HP Laptop",
+        "pdescription":"HP 14s, Ryzen 7- 5700U 16GB RAM/512GB SSD 14-inch(35.6 cm) FHD, IPS,Micro-Edge Display/AMD Radeon Graphics/Alexa/Win 11/Backlit KB",
+        "price": 750,
+        "img": "/assets/images/L1.jpg"
+    },
+    {
+        "pid":2,
+        "pname": "Bosch Washing machne",
+        "pdescription": "LG 8 KG Fully Automatic Front Load Washing Machine (Silver,FHT1408ZNL)",
+        "price": 36000,
+        "img": "/assets/images/w1.jpg"
+    },
+    {
+        "pid":3,
+        "pname": "Dell Inspiron",
+        "pdescription": "Dell Laptop",
+        "price": 45000,
+        "img": "/assets/images/DELL.png"
+    },
+    {
+        "pid":4,
+        "pname": "Jabra Headphones",
+        "pdescription": "Jabra Headphones",
+        "price": 3500,
+        "img": "/assets/images/JABRA.jpg"
+    },
+    {
+        "pid":6,
+        "pname": "Sony TV",
+        "pdescription": "Sony Bravia 108 cm (43 inches) Full HD Smart LED TV KDL-43W6603 (Black) (2020 Model)",
+        "price": 45000,
+        "img": "/assets/images/t1.jpg"
+    }
+]

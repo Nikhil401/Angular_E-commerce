@@ -1,0 +1,41 @@
+<!-- fetch all the records from product property in the .ts file which is accessing the product.json -->
+
+<div class="row" style="background-color: rgb(205, 205, 43);"><hr>
+    <app-allproducts></app-allproducts><hr>
+</div>
+<div *ngFor="let prod of product" style="border: none;">
+  <div class="row">
+      <!-- 1st column -->
+      <div class="col col-3" >
+          <!-- property binding -->
+          <marquee behavior="" direction=""><img [src]="prod.img" class="prodimg"></marquee>
+      </div>
+      <!-- 2nd column -->
+      <div class="card col-lg-6">
+          <div class="card-body col-lg-12">
+              <div class="row" style="margin-top:10px;border-style: solid;border-color:black;border-radius:15px;">
+                  <div class="col-lg-3">
+                      <!-- property binding -->
+                      <img [src]="prod.img" alt="">
+                  </div>
+                  <div class="card1 col-lg-9">
+                      <!-- interpolation binding -->
+                      <div>
+                          <b> Product:</b> {{prod.pname | uppercase}}
+                          <br>
+                          <b> Description:</b> {{prod.pdescription}}
+                          <br>
+                          <b> Price:</b> {{prod.price | currency: "INR"}}
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- 3rd column -->
+      <div class="col col-3">
+          <!-- property binding -->
+          <marquee><img [src]="prod.img" class="prodimg"></marquee>
+      </div>
+  </div>
+</div>
+  <app-footer></app-footer>

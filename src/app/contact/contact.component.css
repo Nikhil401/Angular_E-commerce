@@ -1,0 +1,21 @@
+.form1{
+    margin-left: 10px;
+    width: 630px;
+ border-color: wheat; 
+ border-radius: 10px;
+ background-color:rgb(62, 66, 62);;
+}
+.form2 {
+    width: 630px;
+    margin-left: 10px;
+    border-color: wheat; 
+    border-radius: 10px;
+    background-color:rgb(62, 66, 62);
+   }
+   form{
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+   }
+   

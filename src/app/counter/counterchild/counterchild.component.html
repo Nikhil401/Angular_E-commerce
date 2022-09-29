@@ -1,0 +1,11 @@
+<div>
+    <div class="btn btn-secondary">
+        <button class="btn btn-light" [disabled]="!countLessThenOne" (click)="decrement();">
+            -
+        </button>
+        <input type="button" class="btn btn-secondary" [value]="counterValue">
+        <button class="btn btn-light" (click)="increment();">
+            +
+        </button>
+    </div>
+</div>

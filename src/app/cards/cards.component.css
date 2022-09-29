@@ -1,0 +1,33 @@
+img{
+    height: 100px;
+    width: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color:rgb(62, 66, 62);;
+}
+.prodimg
+{
+    height: 150px;
+    width: 160px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    border-radius: 10px; 
+}
+.card
+{
+    color: white;
+    background-color:rgb(62, 66, 62);
+    margin-top: 10px;
+    font-style:initial;
+    text-align:justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+.card1{
+    margin-top: 8px;
+}
+marquee{
+    font-size: 50px;
+}

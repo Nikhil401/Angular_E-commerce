@@ -1,0 +1,129 @@
+[
+    {
+        "pid":1,
+        "pname":"Kids Frock",
+        "pdescription":"Kids dress for girls between 4 - 6 years old",
+        "price":750,
+        "img":"assets/images/L1.jpg"
+    },
+    {
+        "pid":2,
+        "pname":"Kids Building Blocks",
+        "pdescription":"Kids toys for age between 4 - 6 years old",
+        "price":1000,
+        "img":"assets/images/m1.webp"
+    },
+    {
+        "pid":3,
+        "pname":"Dell Inspiron 15",
+        "pdescription":"Dell Laptop",
+        "price":45000,
+        "img":"assets/images/t1.webp"
+    },
+    {
+        "pid":4,
+        "pname":"Jabra Headphones",
+        "pdescription":"Jabra Headphones",
+        "price":3500,
+        "img":"assets/images/L2.jpg"
+    },
+    {
+        "pid":5,
+        "pname":"Titan Watch",
+        "pdescription":"Titan watch for girls",
+        "price":1500,
+        "img":"assets/images/m2.webp"
+    },
+    {
+        "pid":6,
+        "pname":"Sony TV",
+        "pdescription":"Sony Bravia LED TV - 65 inch",
+        "price":35000,
+        "img":"assets/images/t2.webp"
+    },
+    {
+        "pid":1,
+        "pname":"Samsung",
+        "pdescription":"Samsung - double door ",
+        "price":100000,
+        "img":"assets/images/L3.jpg"
+    },
+    {
+        "pid":2,
+        "pname":"LG",
+        "pdescription":"LG - 500 litres",
+        "price":18990,
+        "img":"assets/images/m3.webp"
+    },
+    {
+        "pid":3,
+        "pname":"Whirpool",
+        "pdescription":"Whirlpool - Single Door",
+        "price":11990,
+        "img":"assets/images/t3.webp"
+    },
+    {
+        "pid":4,
+        "pname":"Godrej",
+        "pdescription":"Godrej - Double Door",
+        "price":21290,
+        "img":"assets/images/L4.jpg"
+    },
+    {
+        "pid":5,
+        "pname":"Croma",
+        "pdescription":"Croma - Double Door Convertible",
+        "price":25999,
+        "img":"assets/images/m4.webp"
+    },
+    {
+        "pid":6,
+        "pname":"Bosch",
+        "pdescription":"Bosch - 32litres - Triple Door",
+        "price":43490,
+        "img":"assets/images/t4.webp"
+    },
+    {
+        "pid":1,
+        "pname":"Samsung",
+        "pdescription":"Samsung - Top Loading",
+        "price":10000,
+        "img":"assets/images/L5.jpg"
+    },
+    {
+        "pid":2,
+        "pname":"LG",
+        "pdescription":"LG - Automatic",
+        "price":18990,
+        "img":"assets/images/m5.webp"
+    },
+    {
+        "pid":3,
+        "pname":"Whirpool",
+        "pdescription":"Whirlpool - Front Loading",
+        "price":21990,
+        "img":"assets/images/t5.webp"
+    },
+    {
+        "pid":4,
+        "pname":"Godrej",
+        "pdescription":"Godrej - Automatic",
+        "price":21290,
+        "img":"assets/images/L6.jpg"
+    },
+    {
+        "pid":5,
+        "pname":"Croma",
+        "pdescription":"Croma - Top Loading",
+        "price":25999,
+        "img":"assets/images/m6.webp"
+    },
+    {
+        "pid":6,
+        "pname":"Bosch",
+        "pdescription":"Bosch - Front Loading",
+        "price":43490,
+        "img":"assets/images/t6.webp"
+    }
+
+]

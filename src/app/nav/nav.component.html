@@ -1,0 +1,73 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid" style="background-color:rgb(213, 213, 52);">
+      <!--STRING INTERPOLATION-->
+      <!--PROPERTY BINDING IN img tag-->
+      <a class="navbar-brand" routerLink="" style="color: black;font-weight: bold;">
+        <img [src]="logo" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <!--href - render the entire page-->
+            <!--SPA - Partial Rendering - routerLink-->
+            <a style="color: black; font-weight:bold" class="nav-link active" aria-current="page" routerLink="">Home</a>
+          </li>
+          
+          <li class="nav-item">
+            <a style="color: black; font-weight:bold" class="nav-link" routerLink="cards" >Products</a>
+          </li>
+
+          <li class="nav-item">
+            <a style="color: black; font-weight:bold" class="nav-link" routerLink="offers" >Offers</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: black; font-weight:bold" class="nav-link" routerLink="register" *ngIf="!auth">Signup</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: black; font-weight:bold" class="nav-link" routerLink="admin">Admin</a>
+          </li>
+
+          <!-- Electronics -->
+          <li class="nav-item dropdown" *ngIf="auth">
+            <a style="color: black; font-weight:bold" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Electronics
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" routerLink="laptop">Laptop</a></li>
+              <li><a class="dropdown-item" routerLink="mobile">Mobile</a></li>
+              <li><a class="dropdown-item" routerLink="tablet">Tablet</a></li>
+            </ul>
+          </li>
+          
+          <li class="nav-item">
+            <a style="color: black; font-weight:bold" class="nav-link" routerLink="product_details" *ngIf="auth">Product Details</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: black; font-weight:bold" class="nav-link" routerLink="contact" *ngIf="auth">Contact Us</a>
+          </li>
+          
+        </ul>
+        
+        <form class="d-flex">
+          <input type="text" #productname placeholder="Enter product name" style="border-radius:5px;">&nbsp;
+          <!--Search button-->
+          <button class="btn btn-dark" type="submit" (click)="search_product(productname.value);productname.value=''" style="border-radius:5px; margin-left: 10px; font-weight: bold; color: white; ">Search</button>
+          
+          <!--Access the Search Component-->
+          <br>
+          <button routerLink='cartitem' style="height:5px;border:none;" *ngIf="auth">
+            <span class="fa fa-cart-plus" style="font-size:16px;color:black"><sup class="text-dark" style="font-size:10px;margin-left: 3px; font-size: 10px; margin-top: 5px;">{{cartCount}}</sup></span>
+          </button> &nbsp;&nbsp;&nbsp;
+          <a class="btn btn-dark" type="submit" style="border-radius:5px; margin-left: 10px; font-weight: bold; color: white; " routerLink="login" *ngIf="auth">Logout</a>
+          &nbsp;&nbsp;&nbsp;
+          <!-- <app-search   [product]="productentered"></app-search> -->
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <div>
+    <marquee style="color: rgb(16, 16, 14); text-shadow: 5px 5px 5px rgb(255, 255, 255); font-family:initial; font-size: 25px;" *ngIf="auth">DEALS OF THE DAY, OFFER CLOSES SOON...!</marquee>
+</div>
